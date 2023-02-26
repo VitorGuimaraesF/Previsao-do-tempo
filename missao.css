@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://static.preparaenem.com/2022/06/florestas.jpg"); 
+    
+}
+
+div {
+    background-color: black;
+    width: 400px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #635c5c;
+    color: white;
+    width: calc(100% - 100px);
+
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    float: right;
+
+}
+
+button:hover {
+    background-color: #6d62627c;
+
+
+}
+
+
+.icone  {
+    width: 40px;
+
+}
+
+.caixa-menor {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: calc(100% - 100px);
+}
+
+.lupa {
+    height: 20px;
+    opacity: 50%;
+}
+
+.container {
+    background-color: black;
+    width: 95%;
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+    width: calc(100% - 100px);
+
+}
+
+.temp {
+color: white;
+margin-top: 20px;
+}
+
+.descricao {
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: white
+    
+    
+}
+
+.umidade {
+    margin-top: 30px;
+    color: rgb(240, 239, 239)
+}
